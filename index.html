@@ -37,22 +37,22 @@
             <div class="collapse navbar-collapse" id="main-menu">
                 <ul class="navbar-nav mr-auto">
                     <!--Layers-->
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#layers" role="button">
+                    <li class="nav-item">                                                                                              <a class="nav-link" data-toggle="collapse" href="#layers" data-toggle="tooltip" data-position="bottom" title="click to view fire data"  role="button">
                             <span class="fas fa-list" aria-hidden="true"></span>
                             <span class="d-md-none d-lg-inline" aria-hidden="true">Layers</span>
                         </a>
                     </li>
                     <!--Markers-->
+
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#markers" role="button">
+   <a class="nav-link" data-toggle="collapse" href="#markers" data-toggle="tooltip" data-position="bottom" title="click here to select and place a marker" role="button">                     
                             <span class="fas fa-map-marker-alt" aria-hidden="true"></span>
                             <span class="d-md-none d-lg-inline" aria-hidden="true">Markers</span>
                         </a>
                     </li>
                     <!--Settings-->
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#settings" role="button">
+    <a class="nav-link" data-toggle="collapse" href="#settings" data-toggle="tooltip" data-position="bottom" title="click to configure site settings" role="button">
                             <span class="fas fa-cog" aria-hidden="true"></span>
                             <span class="d-md-none d-lg-inline" aria-hidden="true">Settings</span>
                         </a>
@@ -157,9 +157,9 @@
                                                 <button type="button" class="btn btn-light fas fa-edit" data-bind="click: $root.editMarker"></button>
                                                 <!-- Delete Button -->
                                                 <button type="button" class="btn btn-light fas fa-trash" data-bind="click: $root.removeMarker"></button>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                  </div>
+                                </li>
+                              </ul>
                             </div>                    
                         </div>
                     </div>
